@@ -1,7 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
-#include "Urn.h"
+#include "ChromaticCircle.h"
 
 class testApp : public ofBaseApp{
 
@@ -10,6 +10,7 @@ class testApp : public ofBaseApp{
 		void update();
 		void draw();
         void iniciar();
+    
     
 		void keyPressed  (int key);
 		void keyReleased(int key);
@@ -22,7 +23,13 @@ class testApp : public ofBaseApp{
 		void gotMessage(ofMessage msg);
     
     ofImage fondo;
-    Urn urna;
+    
+    
+    bool valor;
+    
+    ChromaticCircle *circle;
+    int cantidad;
+    
     
 		
 };

@@ -10,13 +10,28 @@
 
 class ChromaticCircle{
 
-    ChromaticCircle();
-    void init();
-//    void setTranslate( Boolean _trans );
-//    void setStroke( Boolean _stroke );
-//    void draw();
+    public:
     
-//    void circulo( int pasos,int _pasosTotal, float radio, float _rot, int _id, Boolean _trans, Boolean _stroke );
+    ChromaticCircle();
+    void init( float _x , float _y );
+    void setColor();
+    void setTranslate( bool _trans );
+    void setStroke( bool _stroke );
+    void draw();
+    
+    void circulo( int _pasos, int _pasosTotal, float _radio, float _rot, int _id, bool _trans, bool _stroke );
 
+    float  x, y;
+    float  radio;
+    float  rot;
+    
+    int     indice;
+    int     pasosTotal;
+    float   transparencia;
+    
+    bool  trans, stroke_;
+    
+    ofColor rellenos[ 12 ];
+    
 
 };
