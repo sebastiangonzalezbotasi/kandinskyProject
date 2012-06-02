@@ -2,6 +2,7 @@
 
 #include "ofMain.h"
 #include "ChromaticCircle.h"
+#include "ofxPSBlend.h"
 
 class testApp : public ofBaseApp{
 
@@ -22,13 +23,22 @@ class testApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
     
-    ofImage fondo;
+    ofImage fondo,final;
+    ofFbo textura1;
+    
+    ofPixels pixel;
+    
+    ofxPSBlend filtro;
+    int filterMode;
+
+    
     
     
     bool valor;
     
     ChromaticCircle *circle;
     int cantidad;
+    int snapCounter;
     
     
 		

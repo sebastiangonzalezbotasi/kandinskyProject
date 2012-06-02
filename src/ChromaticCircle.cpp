@@ -43,7 +43,7 @@ void ChromaticCircle::init( float _x , float _y ){
     rellenos[10].set(248,192,74,transparencia);
     rellenos[11].set(219,171,71,transparencia);
     
-    
+    borde = ofRandom(2, 5);
 }
 
 
@@ -89,6 +89,7 @@ void ChromaticCircle::circulo( int _pasos, int _pasosTotal, float _radio, float 
         ofCircle(0, 0, _radio);
         
         ofSetColor( 0 );
+        ofSetLineWidth( borde );
         ofNoFill();
         ofCircle(0, 0, _radio);
     }

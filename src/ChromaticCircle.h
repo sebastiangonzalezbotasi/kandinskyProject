@@ -24,6 +24,7 @@ class ChromaticCircle{
     float  x, y;
     float  radio;
     float  rot;
+    float borde;
     
     int     indice;
     int     pasosTotal;
