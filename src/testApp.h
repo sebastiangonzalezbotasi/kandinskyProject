@@ -24,6 +24,7 @@ class testApp : public ofBaseApp{
 		void gotMessage(ofMessage msg);
     
     ofImage fondo,final;
+ 
     ofFbo textura1;
     
     ofPixels pixel;

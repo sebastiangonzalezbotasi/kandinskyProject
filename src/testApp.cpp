@@ -70,7 +70,7 @@ void testApp::iniciar(){
     
     textura1.begin();
     
-    ofClear(255, 255, 255,100);
+    ofClear(0, 0);
     
     for ( int i=0; i<cantidad; i++ ) {
         
