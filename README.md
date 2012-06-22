@@ -1,9 +1,13 @@
+[![logo](http://www.bionimio.com.ar/img/logo.jpg)](http://www.bionimio.com.ar)  
+ 
 # Kandinsky Project
 
 ### :: Summary
 
 Development of algorithms in [openFrameworks](http://www.openframeworks.cc/) for image generation with the aesthetics of [Wassily Kandinsky](http://en.wikipedia.org/wiki/Wassily_Kandinsky) - The Bauhaus (1922-1933) 
 
+### :: Addons
+Adding ofxPSBlend 
 
 ##Contributors 
 **Sebastian G. Botasi**, born in La Plata (Argentina) in 1989.
